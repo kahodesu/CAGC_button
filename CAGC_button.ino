@@ -1,7 +1,10 @@
 /*
-based on button example 
- 
- http://www.arduino.cc/en/Tutorial/Button
+This is code that I use in my class Costumes as Game Controllers to teach building switches using Adafruit's FLORA. 
+It's a mash up of the following examples:
+
+    DigitalInputPull example on the Arduino IDE.
+    Arduino Debounce Tutorial http://arduino.cc/en/Tutorial/Debounce
+    Arduino Mouse Keyboard http://arduino.cc/en/Reference/MouseKeyboard
  */
 
 // constants won't change. They're used here to 
