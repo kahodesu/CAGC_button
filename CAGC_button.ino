@@ -31,7 +31,7 @@ void loop(){
   // check if the pushbutton is pressed.
   // if it is, the buttonState is LOW:                     
   if (buttonState == LOW) {     
-  //if (buttonState == LOW && lastButtonState == HIGH) {  //FOR DEBOUNCING 
+  //if (buttonState == LOW && lastButtonState == LOW) {  //FOR DEBOUNCING 
     // turn LED on: 
    //  Keyboard.press(' '); //FOR KEYBOARD STROKE
     digitalWrite(ledPin, HIGH);  
